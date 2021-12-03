@@ -1,6 +1,4 @@
-import { useEffect, useState } from 'react';
 import { GenreResponseProps } from '../App';
-import { api } from '../services/api';
 
 interface HeaderProps {
   selectedGenre: GenreResponseProps;
